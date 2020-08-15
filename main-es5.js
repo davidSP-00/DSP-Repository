@@ -387,7 +387,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       selectors: [["app-cards"]],
       decls: 79,
       vars: 0,
-      consts: [[1, "container", "mb-5"], [1, "card-columns"], [1, "card", "text-center"], [1, "card-body"], [1, "card-title"], [1, "card-text"], ["href", "https://github.com/davidSP-00/deploy-chat", "target", "_blank"], [1, "fa", "fa-link"], [1, "card"], ["src", "assets/img/peliculasApp.png", "alt", "Card image cap", 1, "card-img-top"], ["href", "https://github.com/davidSP-00/Peliculas_Flutter", "target", "_blank"], ["src", "assets/img/spotifyApp.png", "alt", "Card image cap", 1, "card-img-top"], ["href", "https://github.com/davidSP-00/AppSpotify", "target", "_blank"], [1, "card", "bg-dark", "text-white", "text-center", "p-3"], [1, "blockquote", "mb-0"], [1, ""], ["href", "https://github.com/davidSP-00", "target", "_blank", 1, "btn", "btn-danger", "btn-lg"], ["aria-hidden", "true", 1, "fa", "fa-github", 2, "font-size", "40px"], ["src", "assets/img/dise\xF1o.png", "alt", "Card image cap", 1, "card-img-top"], ["href", "https://github.com/davidSP-00/Design-Flutter", "target", "_blank"], ["src", "assets/img/chatWS.png", "alt", "Card image cap", 1, "card-img-top"], ["href", "https://github.com/davidSP-00/ChatWS", "target", "_blank"], ["href", "https://github.com/davidSP-00/CRUD_Clientes_Backend", "target", "_blank"], ["src", "assets/img/facturacion.png", "alt", "Card image cap", 1, "card-img-top"], ["src", "assets/img/facturacionIonic.png", "alt", "Card image cap", 1, "card-img-top"], ["href", "https://github.com/davidSP-00/CRUD_Clientes_Ionic", "target", "_blank"]],
+      consts: [[1, "container", "mb-5"], [1, "card-columns"], [1, "card", "text-center", "animate__animated", "animate__fadeInLeft", "animate__slower"], [1, "card-body"], [1, "card-title"], [1, "card-text"], ["href", "https://github.com/davidSP-00/deploy-chat", "target", "_blank"], [1, "fa", "fa-link"], [1, "card", "animate__animated", "animate__fadeInLeft", "animate__slow"], ["src", "assets/img/peliculasApp.png", "alt", "Card image cap", 1, "card-img-top"], ["href", "https://github.com/davidSP-00/Peliculas_Flutter", "target", "_blank"], [1, "card", "animate__animated", "animate__fadeInLeft"], ["src", "assets/img/spotifyApp.png", "alt", "Card image cap", 1, "card-img-top"], ["href", "https://github.com/davidSP-00/AppSpotify", "target", "_blank"], [1, "card", "bg-dark", "text-white", "text-center", "p-3", "animate__animated", "animate__fadeInLeft", "animate__fast"], [1, "blockquote", "mb-0"], [1, ""], ["href", "https://github.com/davidSP-00", "target", "_blank", 1, "btn", "btn-danger", "btn-lg"], ["aria-hidden", "true", 1, "fa", "fa-github", 2, "font-size", "40px"], [1, "card", "animate__animated", "animate__zoomIn", "animate__slower"], ["src", "assets/img/dise\xF1o.png", "alt", "Card image cap", 1, "card-img-top"], ["href", "https://github.com/davidSP-00/Design-Flutter", "target", "_blank"], [1, "card", "card", "animate__animated", "animate__zoomIn", "animate__slow"], ["src", "assets/img/chatWS.png", "alt", "Card image cap", 1, "card-img-top"], ["href", "https://github.com/davidSP-00/ChatWS", "target", "_blank"], [1, "card", "text-center", "animate__animated", "animate__fadeInRight", "animate__slower"], ["href", "https://github.com/davidSP-00/CRUD_Clientes_Backend", "target", "_blank"], [1, "card", "animate__animated", "animate__fadeInRight", "animate__slow"], ["src", "assets/img/facturacion.png", "alt", "Card image cap", 1, "card-img-top"], [1, "card", "animate__animated", "animate__fadeInRight"], ["src", "assets/img/facturacionIonic.png", "alt", "Card image cap", 1, "card-img-top"], ["href", "https://github.com/davidSP-00/CRUD_Clientes_Ionic", "target", "_blank"]],
       template: function CardsComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
@@ -448,9 +448,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "div", 8);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "div", 11);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](20, "img", 11);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](20, "img", 12);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "div", 3);
 
@@ -464,7 +464,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, "Web que cosume la API de Spotify ,donde busca artistas y lista las canciones ");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "a", 12);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "a", 13);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](27, "i", 7);
 
@@ -476,9 +476,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "div", 13);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "div", 14);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "blockquote", 14);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "blockquote", 15);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "p");
 
@@ -486,13 +486,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "footer", 15);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "footer", 16);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "a", 16);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "a", 17);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](34, "i", 17);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](34, "i", 18);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -500,9 +498,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "div", 8);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](36, "img", 18);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "div", 19);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](36, "img", 20);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "div", 3);
 
@@ -516,7 +516,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](41, "Pruebas de Widgets de dise\xF1o en Flutter ");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "a", 19);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "a", 21);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](43, "i", 7);
 
@@ -528,9 +528,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "div", 8);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "div", 22);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](45, "img", 20);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](45, "img", 23);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "div", 3);
 
@@ -544,7 +544,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](50, "Chat que funciona con WebSockets. ");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](51, "a", 21);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](51, "a", 24);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](52, "i", 7);
 
@@ -556,7 +556,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](53, "div", 2);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](53, "div", 25);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](54, "div", 3);
 
@@ -570,7 +570,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](58, "API RESTde facturacion con Autentificacion(Spring Framework) ");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "a", 22);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "a", 26);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](60, "i", 7);
 
@@ -582,9 +582,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](61, "div", 8);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](61, "div", 27);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](62, "img", 23);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](62, "img", 28);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](63, "div", 3);
 
@@ -598,7 +598,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](67, "Web que cosume la API de Facturacion[Backend] ");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](68, "a", 21);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](68, "a", 24);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](69, "i", 7);
 
@@ -610,9 +610,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](70, "div", 8);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](70, "div", 29);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](71, "img", 24);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](71, "img", 30);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](72, "div", 3);
 
@@ -626,7 +626,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](76, "App que consume API de Facturacion[Backend] ");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](77, "a", 25);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](77, "a", 31);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](78, "i", 7);
 
@@ -711,7 +711,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       selectors: [["app-contacto"]],
       decls: 26,
       vars: 0,
-      consts: [[1, "container", "text-center", "pb-5"], [1, "table", "table-striped"], ["scope", "row"], ["href", "https://www.linkedin.com/in/david-sullcaray-palomino-4852831b4/", "target", "_blank"], [1, "fa", "fa-linkedin-square", 2, "font-size", "24px"]],
+      consts: [[1, "container", "text-center", "pb-5"], [1, "table", "table-striped", "animate__animated", "animate__fadeIn"], ["scope", "row"], ["href", "https://www.linkedin.com/in/david-sullcaray-palomino-4852831b4/", "target", "_blank"], [1, "fa", "fa-linkedin-square", 2, "font-size", "24px"]],
       template: function ContactoComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
